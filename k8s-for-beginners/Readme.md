@@ -8,10 +8,10 @@
     - [Refer](https://www.aquasec.com/cloud-native-academy/docker-container/docker-architecture/)
   - Evolution of container runtimes. 
   
-# Part 1: Why we need Kubernetes when we are already Docker runtimes.
+# Part 1: Why we need Kubernetes when we are already having Docker as container runtimes.
 
-  - Did K8s is only container orechestration system available or do we have any? 
-  - Advantages of using K8s over similar other container orchestration platforms.
+  - Did K8s is only container orechestration system available or do we have any? [Refer](https://geekflare.com/container-orchestration-software/)
+  - Advantages of using K8s over similar other container orchestration platforms: All things needed for orchestration of container in a large scale can be done by Kubernetes natively and also can provide us with  capability of extending of our own by the means of Controllers, CRDs etc. 
   - Kubernetes Architecture and core components. [Refer](https://kubernetes.io/docs/concepts/overview/components/)
   - Choose mode of Kubernetes clusters with respect to usecases
     - Managed Clusters: Different Type of Providers, eg: GKE, EKS, AKS.
