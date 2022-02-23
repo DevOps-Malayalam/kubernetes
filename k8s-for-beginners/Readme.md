@@ -24,17 +24,15 @@
 
 - First app into Kubernetes, All I need is a decently build docker image
   - Container Image Build consideration.
-  - Integrate container scanning solutions.
+    - Multi-Stage Builds
+    - Use light slim base images or distroless images(Language focused minus operating system)
   - Ref: https://www.cncf.io/blog/2021/09/14/how-to-secure-containers-with-cosign-and-distroless-images/
-- Stateless Applications
-- Stateful Applications. 
-- Expose your first pod. 
-- Why I need Deployment for my pods? 
+- Walkthrough the following using a kind cluster
+  - Expose your first pod. 
+  - Why I need Deployment for my pods? 
   - Expose my first deployment using Services. 
-  - Tracing your first request your applications. 
 - Solution for running stateful workloads? 
   - Statefulsets.
-  - Headless services. 
   
 # Part 3: Extending the native capabilities of Kubernetes. 
 
